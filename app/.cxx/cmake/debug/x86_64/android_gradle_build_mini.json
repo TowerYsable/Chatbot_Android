@@ -1,0 +1,54 @@
+{
+  "buildFiles": [
+    "D:\\project\\git_home\\Chatbot_Android\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "D:\\soft\\sdk\\ndk\\21.1.6352462\\build\\cmake\\android.toolchain.cmake",
+    "D:\\soft\\sdk\\ndk\\21.1.6352462\\build\\cmake\\platforms.cmake"
+  ],
+  "cleanCommands": [
+    "D:\\soft\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\project\\git_home\\Chatbot_Android\\app\\.cxx\\cmake\\debug\\x86_64\" clean"
+  ],
+  "buildTargetsCommand": "D:\\soft\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"D:\\project\\git_home\\Chatbot_Android\\app\\.cxx\\cmake\\debug\\x86_64\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "frontend-Debug-x86_64": {
+      "artifactName": "frontend",
+      "buildCommand": "D:\\soft\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\project\\git_home\\Chatbot_Android\\app\\.cxx\\cmake\\debug\\x86_64\" frontend",
+      "abi": "x86_64",
+      "output": "D:\\project\\git_home\\Chatbot_Android\\app\\.cxx\\cmake\\debug\\x86_64\\libfrontend.a",
+      "runtimeFiles": []
+    },
+    "decoder-Debug-x86_64": {
+      "artifactName": "decoder",
+      "buildCommand": "D:\\soft\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\project\\git_home\\Chatbot_Android\\app\\.cxx\\cmake\\debug\\x86_64\" decoder",
+      "abi": "x86_64",
+      "output": "D:\\project\\git_home\\Chatbot_Android\\app\\.cxx\\cmake\\debug\\x86_64\\libdecoder.a",
+      "runtimeFiles": []
+    },
+    "utils-Debug-x86_64": {
+      "artifactName": "utils",
+      "buildCommand": "D:\\soft\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\project\\git_home\\Chatbot_Android\\app\\.cxx\\cmake\\debug\\x86_64\" utils",
+      "abi": "x86_64",
+      "output": "D:\\project\\git_home\\Chatbot_Android\\app\\.cxx\\cmake\\debug\\x86_64\\libutils.a",
+      "runtimeFiles": []
+    },
+    "asr_cc-Debug-x86_64": {
+      "artifactName": "asr_cc",
+      "buildCommand": "D:\\soft\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\project\\git_home\\Chatbot_Android\\app\\.cxx\\cmake\\debug\\x86_64\" asr_cc",
+      "abi": "x86_64",
+      "output": "D:\\project\\git_home\\Chatbot_Android\\app\\build\\intermediates\\cmake\\debug\\obj\\x86_64\\libasr_cc.so",
+      "runtimeFiles": []
+    },
+    "decoder_main-Debug-x86_64": {
+      "artifactName": "decoder_main",
+      "buildCommand": "D:\\soft\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\project\\git_home\\Chatbot_Android\\app\\.cxx\\cmake\\debug\\x86_64\" decoder_main",
+      "abi": "x86_64",
+      "output": "D:\\project\\git_home\\Chatbot_Android\\app\\.cxx\\cmake\\debug\\x86_64\\decoder_main",
+      "runtimeFiles": []
+    },
+    "gflags-Debug-x86_64": {
+      "artifactName": "gflags",
+      "buildCommand": "D:\\soft\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\project\\git_home\\Chatbot_Android\\app\\.cxx\\cmake\\debug\\x86_64\" gflags",
+      "abi": "x86_64",
+      "runtimeFiles": []
+    }
+  }
+}

@@ -1,0 +1,15 @@
+ninja: Entering directory `/home/tower/project/android_pro/models4/app/.cxx/cmake/debug/arm64-v8a'
+[1/8] Building CXX object CMakeFiles/decoder_main.dir/bin/decoder_main.cc.o
+[2/8] Building CXX object CMakeFiles/decoder.dir/decoder/torch_asr_model.cc.o
+[3/8] Building CXX object CMakeFiles/decoder.dir/decoder/ctc_prefix_beam_search.cc.o
+[4/8] Building CXX object CMakeFiles/decoder.dir/decoder/torch_asr_decoder.cc.o
+[5/8] Linking CXX static library libdecoder.a
+[6/8] Building CXX object CMakeFiles/asr_cc.dir/asr_cc.cc.o
+[7/8] Linking CXX executable decoder_main
+FAILED: decoder_main 
+: && /home/tower/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android21 --gcc-toolchain=/home/tower/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/tower/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++14 -DC10_USE_GLOG -DC10_USE_MINIMAL_GLOG -DANDROID -Wno-c++11-narrowing -fexceptions -O0 -fno-limit-debug-info  -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections CMakeFiles/decoder_main.dir/bin/decoder_main.cc.o  -o decoder_main -L/home/tower/project/android_pro/models4/app/.cxx/cmake/debug/arm64-v8a/gflags-build/lib libfrontend.a libdecoder.a -landroid -lgflags libutils.a -lc++_shared -llog /home/tower/project/android_pro/models4/app/build/pytorch_android-1.6.0.aar/jni/arm64-v8a/libpytorch_jni.so /home/tower/project/android_pro/models4/app/build/pytorch_android-1.6.0.aar/jni/arm64-v8a/libfbjni.so -latomic -lm && :
+/home/tower/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/ld: decoder_main: hidden symbol `__letf2' in /home/tower/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x/libgcc_real.a(letf2.o) is referenced by DSO
+/home/tower/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/ld: final link failed: Bad value
+clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+[8/8] Linking CXX shared library /home/tower/project/android_pro/models4/app/build/intermediates/cmake/debug/obj/arm64-v8a/libasr_cc.so
+ninja: build stopped: subcommand failed.

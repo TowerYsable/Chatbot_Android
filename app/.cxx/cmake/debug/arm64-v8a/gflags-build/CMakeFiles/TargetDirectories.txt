@@ -1,0 +1,10 @@
+/home/tower/project/android_pro/models4/app/.cxx/cmake/debug/arm64-v8a/gflags-build/CMakeFiles/install/strip.dir
+/home/tower/project/android_pro/models4/app/.cxx/cmake/debug/arm64-v8a/gflags-build/CMakeFiles/install/local.dir
+/home/tower/project/android_pro/models4/app/.cxx/cmake/debug/arm64-v8a/gflags-build/CMakeFiles/rebuild_cache.dir
+/home/tower/project/android_pro/models4/app/.cxx/cmake/debug/arm64-v8a/gflags-build/CMakeFiles/edit_cache.dir
+/home/tower/project/android_pro/models4/app/.cxx/cmake/debug/arm64-v8a/gflags-build/CMakeFiles/gflags_nothreads.dir
+/home/tower/project/android_pro/models4/app/.cxx/cmake/debug/arm64-v8a/gflags-build/CMakeFiles/gflags_nothreads_shared.dir
+/home/tower/project/android_pro/models4/app/.cxx/cmake/debug/arm64-v8a/gflags-build/CMakeFiles/install.dir
+/home/tower/project/android_pro/models4/app/.cxx/cmake/debug/arm64-v8a/gflags-build/CMakeFiles/list_install_components.dir
+/home/tower/project/android_pro/models4/app/.cxx/cmake/debug/arm64-v8a/gflags-build/CMakeFiles/gflags.dir
+/home/tower/project/android_pro/models4/app/.cxx/cmake/debug/arm64-v8a/gflags-build/CMakeFiles/gflags_shared.dir

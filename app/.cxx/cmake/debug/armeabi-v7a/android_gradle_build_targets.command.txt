@@ -1,0 +1,8 @@
+Executable : D:\soft\sdk\cmake\3.10.2.4988404\bin\ninja.exe
+arguments : 
+-C
+D:\project\git_home\Chatbot_Android\app\.cxx\cmake\debug\armeabi-v7a
+asr_cc
+decoder_main
+jvmArgs : 
+

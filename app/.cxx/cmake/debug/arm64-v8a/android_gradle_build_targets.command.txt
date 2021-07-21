@@ -1,0 +1,8 @@
+Executable : /home/tower/Android/Sdk/cmake/3.10.2.4988404/bin/ninja
+arguments : 
+-C
+/home/tower/project/android_pro/models4/app/.cxx/cmake/debug/arm64-v8a
+asr_cc
+decoder_main
+jvmArgs : 
+

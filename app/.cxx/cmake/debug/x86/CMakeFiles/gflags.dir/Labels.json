@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/project/git_home/Chatbot_Android/app/.cxx/cmake/debug/x86/CMakeFiles/gflags"
+		},
+		{
+			"file" : "D:/project/git_home/Chatbot_Android/app/.cxx/cmake/debug/x86/CMakeFiles/gflags.rule"
+		},
+		{
+			"file" : "D:/project/git_home/Chatbot_Android/app/.cxx/cmake/debug/x86/CMakeFiles/gflags-complete.rule"
+		},
+		{
+			"file" : "D:/project/git_home/Chatbot_Android/app/.cxx/cmake/debug/x86/gflags-prefix/src/gflags-stamp/gflags-install.rule"
+		},
+		{
+			"file" : "D:/project/git_home/Chatbot_Android/app/.cxx/cmake/debug/x86/gflags-prefix/src/gflags-stamp/gflags-mkdir.rule"
+		},
+		{
+			"file" : "D:/project/git_home/Chatbot_Android/app/.cxx/cmake/debug/x86/gflags-prefix/src/gflags-stamp/gflags-download.rule"
+		},
+		{
+			"file" : "D:/project/git_home/Chatbot_Android/app/.cxx/cmake/debug/x86/gflags-prefix/src/gflags-stamp/gflags-update.rule"
+		},
+		{
+			"file" : "D:/project/git_home/Chatbot_Android/app/.cxx/cmake/debug/x86/gflags-prefix/src/gflags-stamp/gflags-patch.rule"
+		},
+		{
+			"file" : "D:/project/git_home/Chatbot_Android/app/.cxx/cmake/debug/x86/gflags-prefix/src/gflags-stamp/gflags-configure.rule"
+		},
+		{
+			"file" : "D:/project/git_home/Chatbot_Android/app/.cxx/cmake/debug/x86/gflags-prefix/src/gflags-stamp/gflags-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"gflags"
+		],
+		"name" : "gflags"
+	}
+}

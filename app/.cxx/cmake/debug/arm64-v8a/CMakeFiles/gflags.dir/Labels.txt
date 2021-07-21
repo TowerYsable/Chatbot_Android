@@ -1,0 +1,13 @@
+# Target labels
+ gflags
+# Source files and their labels
+/home/tower/project/android_pro/models4/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/gflags
+/home/tower/project/android_pro/models4/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/gflags.rule
+/home/tower/project/android_pro/models4/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/gflags-complete.rule
+/home/tower/project/android_pro/models4/app/.cxx/cmake/debug/arm64-v8a/gflags-prefix/src/gflags-stamp/gflags-install.rule
+/home/tower/project/android_pro/models4/app/.cxx/cmake/debug/arm64-v8a/gflags-prefix/src/gflags-stamp/gflags-mkdir.rule
+/home/tower/project/android_pro/models4/app/.cxx/cmake/debug/arm64-v8a/gflags-prefix/src/gflags-stamp/gflags-download.rule
+/home/tower/project/android_pro/models4/app/.cxx/cmake/debug/arm64-v8a/gflags-prefix/src/gflags-stamp/gflags-update.rule
+/home/tower/project/android_pro/models4/app/.cxx/cmake/debug/arm64-v8a/gflags-prefix/src/gflags-stamp/gflags-patch.rule
+/home/tower/project/android_pro/models4/app/.cxx/cmake/debug/arm64-v8a/gflags-prefix/src/gflags-stamp/gflags-configure.rule
+/home/tower/project/android_pro/models4/app/.cxx/cmake/debug/arm64-v8a/gflags-prefix/src/gflags-stamp/gflags-build.rule

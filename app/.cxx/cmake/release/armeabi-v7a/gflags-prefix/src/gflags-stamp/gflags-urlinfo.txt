@@ -1,0 +1,3 @@
+repository='external project URL'
+module='https://github.com/gflags/gflags/archive/v2.2.0.zip'
+tag='SHA256=99f9e8b63ea53e4b23f0fd0f68a6f1e397d5512be36716c17cc75966a90f0d57'

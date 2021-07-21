@@ -1,0 +1,13 @@
+# Target labels
+ gflags
+# Source files and their labels
+D:/project/git_home/Chatbot_Android/app/.cxx/cmake/release/x86/CMakeFiles/gflags
+D:/project/git_home/Chatbot_Android/app/.cxx/cmake/release/x86/CMakeFiles/gflags.rule
+D:/project/git_home/Chatbot_Android/app/.cxx/cmake/release/x86/CMakeFiles/gflags-complete.rule
+D:/project/git_home/Chatbot_Android/app/.cxx/cmake/release/x86/gflags-prefix/src/gflags-stamp/gflags-install.rule
+D:/project/git_home/Chatbot_Android/app/.cxx/cmake/release/x86/gflags-prefix/src/gflags-stamp/gflags-mkdir.rule
+D:/project/git_home/Chatbot_Android/app/.cxx/cmake/release/x86/gflags-prefix/src/gflags-stamp/gflags-download.rule
+D:/project/git_home/Chatbot_Android/app/.cxx/cmake/release/x86/gflags-prefix/src/gflags-stamp/gflags-update.rule
+D:/project/git_home/Chatbot_Android/app/.cxx/cmake/release/x86/gflags-prefix/src/gflags-stamp/gflags-patch.rule
+D:/project/git_home/Chatbot_Android/app/.cxx/cmake/release/x86/gflags-prefix/src/gflags-stamp/gflags-configure.rule
+D:/project/git_home/Chatbot_Android/app/.cxx/cmake/release/x86/gflags-prefix/src/gflags-stamp/gflags-build.rule

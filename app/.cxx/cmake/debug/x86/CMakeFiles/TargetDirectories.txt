@@ -1,0 +1,8 @@
+D:/project/git_home/Chatbot_Android/app/.cxx/cmake/debug/x86/CMakeFiles/gflags.dir
+D:/project/git_home/Chatbot_Android/app/.cxx/cmake/debug/x86/CMakeFiles/utils.dir
+D:/project/git_home/Chatbot_Android/app/.cxx/cmake/debug/x86/CMakeFiles/rebuild_cache.dir
+D:/project/git_home/Chatbot_Android/app/.cxx/cmake/debug/x86/CMakeFiles/decoder_main.dir
+D:/project/git_home/Chatbot_Android/app/.cxx/cmake/debug/x86/CMakeFiles/frontend.dir
+D:/project/git_home/Chatbot_Android/app/.cxx/cmake/debug/x86/CMakeFiles/decoder.dir
+D:/project/git_home/Chatbot_Android/app/.cxx/cmake/debug/x86/CMakeFiles/asr_cc.dir
+D:/project/git_home/Chatbot_Android/app/.cxx/cmake/debug/x86/CMakeFiles/edit_cache.dir

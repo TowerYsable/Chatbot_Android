@@ -1,0 +1,9 @@
+ninja: Entering directory `D:\project\git_home\Chatbot_Android\app\.cxx\cmake\debug\armeabi-v7a'
+[1/8] Building CXX object CMakeFiles/decoder.dir/decoder/torch_asr_model.cc.o
+[2/8] Building CXX object CMakeFiles/decoder.dir/decoder/ctc_prefix_beam_search.cc.o
+[3/8] Building CXX object CMakeFiles/decoder_main.dir/bin/decoder_main.cc.o
+[4/8] Building CXX object CMakeFiles/decoder.dir/decoder/torch_asr_decoder.cc.o
+[5/8] Building CXX object CMakeFiles/asr_cc.dir/asr_cc.cc.o
+[6/8] Linking CXX static library libdecoder.a
+[7/8] Linking CXX executable decoder_main
+[8/8] Linking CXX shared library D:\project\git_home\Chatbot_Android\app\build\intermediates\cmake\debug\obj\armeabi-v7a\libasr_cc.so

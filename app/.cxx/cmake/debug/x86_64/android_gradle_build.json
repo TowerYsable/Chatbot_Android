@@ -1,0 +1,191 @@
+{
+  "stringTable": {
+    "0": "D:/project/git_home/Chatbot_Android/app/.cxx/cmake/debug/x86_64",
+    "1": "--target=x86_64-none-linux-android21 --gcc-toolchain=D:/soft/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/soft/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot -ID:/project/git_home/Chatbot_Android/app/src/main/cpp -ID:/project/git_home/Chatbot_Android/app/src/main/cpp/../../../build/pytorch_android-1.6.0.aar/headers -ID:/project/git_home/Chatbot_Android/app/src/main/cpp/../../../build/pytorch_android-1.6.0.aar/headers/torch/csrc/api/include -Igflags-build/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -std=c++14 -DC10_USE_GLOG -DC10_USE_MINIMAL_GLOG -DANDROID -Wno-c++11-narrowing -fexceptions -O0 -fno-limit-debug-info -fPIC -std=gnu++14",
+    "2": "--target=x86_64-none-linux-android21 --gcc-toolchain=D:/soft/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/soft/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot -ID:/project/git_home/Chatbot_Android/app/src/main/cpp -ID:/project/git_home/Chatbot_Android/app/src/main/cpp/../../../build/pytorch_android-1.6.0.aar/headers -ID:/project/git_home/Chatbot_Android/app/src/main/cpp/../../../build/pytorch_android-1.6.0.aar/headers/torch/csrc/api/include -Igflags-build/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -std=c++14 -DC10_USE_GLOG -DC10_USE_MINIMAL_GLOG -DANDROID -Wno-c++11-narrowing -fexceptions -O0 -fno-limit-debug-info -fPIE -std=gnu++14",
+    "3": "--target=x86_64-none-linux-android21 --gcc-toolchain=D:/soft/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/soft/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dasr_cc_EXPORTS -ID:/project/git_home/Chatbot_Android/app/src/main/cpp -ID:/project/git_home/Chatbot_Android/app/src/main/cpp/../../../build/pytorch_android-1.6.0.aar/headers -ID:/project/git_home/Chatbot_Android/app/src/main/cpp/../../../build/pytorch_android-1.6.0.aar/headers/torch/csrc/api/include -Igflags-build/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -std=c++14 -DC10_USE_GLOG -DC10_USE_MINIMAL_GLOG -DANDROID -Wno-c++11-narrowing -fexceptions -O0 -fno-limit-debug-info -fPIC -std=gnu++14",
+    "4": "null"
+  },
+  "buildFiles": [
+    "D:\\project\\git_home\\Chatbot_Android\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "D:\\soft\\sdk\\ndk\\21.1.6352462\\build\\cmake\\android.toolchain.cmake",
+    "D:\\soft\\sdk\\ndk\\21.1.6352462\\build\\cmake\\platforms.cmake"
+  ],
+  "cleanCommands": [
+    "D:\\soft\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\project\\git_home\\Chatbot_Android\\app\\.cxx\\cmake\\debug\\x86_64\" clean"
+  ],
+  "buildTargetsCommand": "D:\\soft\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"D:\\project\\git_home\\Chatbot_Android\\app\\.cxx\\cmake\\debug\\x86_64\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "frontend-Debug-x86_64": {
+      "buildCommand": "D:\\soft\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\project\\git_home\\Chatbot_Android\\app\\.cxx\\cmake\\debug\\x86_64\" frontend",
+      "buildType": "debug",
+      "toolchain": "1242951162",
+      "abi": "x86_64",
+      "artifactName": "frontend",
+      "files": [
+        {
+          "src": "D:\\project\\git_home\\Chatbot_Android\\app\\src\\main\\cpp\\frontend\\feature_pipeline.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\project\\git_home\\Chatbot_Android\\app\\src\\main\\cpp\\frontend\\fft.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "D:\\project\\git_home\\Chatbot_Android\\app\\.cxx\\cmake\\debug\\x86_64\\libfrontend.a"
+    },
+    "decoder-Debug-x86_64": {
+      "buildCommand": "D:\\soft\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\project\\git_home\\Chatbot_Android\\app\\.cxx\\cmake\\debug\\x86_64\" decoder",
+      "buildType": "debug",
+      "toolchain": "1242951162",
+      "abi": "x86_64",
+      "artifactName": "decoder",
+      "files": [
+        {
+          "src": "D:\\project\\git_home\\Chatbot_Android\\app\\src\\main\\cpp\\utils\\utils.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\project\\git_home\\Chatbot_Android\\app\\src\\main\\cpp\\decoder\\ctc_prefix_beam_search.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\project\\git_home\\Chatbot_Android\\app\\src\\main\\cpp\\decoder\\torch_asr_decoder.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\project\\git_home\\Chatbot_Android\\app\\src\\main\\cpp\\decoder\\torch_asr_model.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "D:\\project\\git_home\\Chatbot_Android\\app\\.cxx\\cmake\\debug\\x86_64\\libdecoder.a"
+    },
+    "utils-Debug-x86_64": {
+      "buildCommand": "D:\\soft\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\project\\git_home\\Chatbot_Android\\app\\.cxx\\cmake\\debug\\x86_64\" utils",
+      "buildType": "debug",
+      "toolchain": "1242951162",
+      "abi": "x86_64",
+      "artifactName": "utils",
+      "files": [
+        {
+          "src": "D:\\project\\git_home\\Chatbot_Android\\app\\src\\main\\cpp\\utils\\utils.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "D:\\project\\git_home\\Chatbot_Android\\app\\.cxx\\cmake\\debug\\x86_64\\libutils.a"
+    },
+    "asr_cc-Debug-x86_64": {
+      "buildCommand": "D:\\soft\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\project\\git_home\\Chatbot_Android\\app\\.cxx\\cmake\\debug\\x86_64\" asr_cc",
+      "buildType": "debug",
+      "toolchain": "1242951162",
+      "abi": "x86_64",
+      "artifactName": "asr_cc",
+      "files": [
+        {
+          "src": "D:\\project\\git_home\\Chatbot_Android\\app\\src\\main\\cpp\\asr_cc.cc",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "D:\\project\\git_home\\Chatbot_Android\\app\\build\\intermediates\\cmake\\debug\\obj\\x86_64\\libasr_cc.so",
+      "runtimeFiles": []
+    },
+    "decoder_main-Debug-x86_64": {
+      "buildCommand": "D:\\soft\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\project\\git_home\\Chatbot_Android\\app\\.cxx\\cmake\\debug\\x86_64\" decoder_main",
+      "buildType": "debug",
+      "toolchain": "1242951162",
+      "abi": "x86_64",
+      "artifactName": "decoder_main",
+      "files": [
+        {
+          "src": "D:\\project\\git_home\\Chatbot_Android\\app\\src\\main\\cpp\\bin\\decoder_main.cc",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "D:\\project\\git_home\\Chatbot_Android\\app\\.cxx\\cmake\\debug\\x86_64\\decoder_main",
+      "runtimeFiles": []
+    },
+    "gflags-Debug-x86_64": {
+      "buildCommand": "D:\\soft\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\project\\git_home\\Chatbot_Android\\app\\.cxx\\cmake\\debug\\x86_64\" gflags",
+      "buildType": "debug",
+      "toolchain": "1242951162",
+      "abi": "x86_64",
+      "artifactName": "gflags",
+      "files": [
+        {
+          "src": "D:\\project\\git_home\\Chatbot_Android\\app\\.cxx\\cmake\\debug\\x86_64\\CMakeFiles\\gflags",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\project\\git_home\\Chatbot_Android\\app\\.cxx\\cmake\\debug\\x86_64\\CMakeFiles\\gflags.rule",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\project\\git_home\\Chatbot_Android\\app\\.cxx\\cmake\\debug\\x86_64\\CMakeFiles\\gflags-complete.rule",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\project\\git_home\\Chatbot_Android\\app\\.cxx\\cmake\\debug\\x86_64\\gflags-prefix\\src\\gflags-stamp\\gflags-install.rule",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\project\\git_home\\Chatbot_Android\\app\\.cxx\\cmake\\debug\\x86_64\\gflags-prefix\\src\\gflags-stamp\\gflags-mkdir.rule",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\project\\git_home\\Chatbot_Android\\app\\.cxx\\cmake\\debug\\x86_64\\gflags-prefix\\src\\gflags-stamp\\gflags-download.rule",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\project\\git_home\\Chatbot_Android\\app\\.cxx\\cmake\\debug\\x86_64\\gflags-prefix\\src\\gflags-stamp\\gflags-update.rule",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\project\\git_home\\Chatbot_Android\\app\\.cxx\\cmake\\debug\\x86_64\\gflags-prefix\\src\\gflags-stamp\\gflags-patch.rule",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\project\\git_home\\Chatbot_Android\\app\\.cxx\\cmake\\debug\\x86_64\\gflags-prefix\\src\\gflags-stamp\\gflags-configure.rule",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\project\\git_home\\Chatbot_Android\\app\\.cxx\\cmake\\debug\\x86_64\\gflags-prefix\\src\\gflags-stamp\\gflags-build.rule",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": []
+    }
+  },
+  "toolchains": {
+    "1242951162": {
+      "cppCompilerExecutable": "D:\\soft\\sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cc"
+  ]
+}

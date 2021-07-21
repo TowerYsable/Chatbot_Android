@@ -1,0 +1,8 @@
+/home/tower/project/android_pro/models4/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/rebuild_cache.dir
+/home/tower/project/android_pro/models4/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/decoder_main.dir
+/home/tower/project/android_pro/models4/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/asr_cc.dir
+/home/tower/project/android_pro/models4/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/decoder.dir
+/home/tower/project/android_pro/models4/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/edit_cache.dir
+/home/tower/project/android_pro/models4/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/frontend.dir
+/home/tower/project/android_pro/models4/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/utils.dir
+/home/tower/project/android_pro/models4/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/gflags.dir

@@ -1,0 +1,251 @@
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"supportedProtocolVersions":[{"isExperimental":true,"major":1,"minor":1}],"type":"hello"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {
+  "type": "handshake",
+  "cookie": "gradle-cmake-cookie",
+  "protocolVersion": {
+    "isExperimental": true,
+    "major": 1,
+    "minor": 1
+  },
+  "sourceDirectory": "/home/tower/project/android_pro/models4/app/src/main/cpp",
+  "buildDirectory": "/home/tower/project/android_pro/models4/app/.cxx/cmake/debug/arm64-v8a",
+  "generator": "Ninja"
+}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"gradle-cmake-cookie","inReplyTo":"handshake","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {
+  "type": "configure",
+  "cacheArguments": [
+    "",
+    "-DCMAKE_CXX_FLAGS\u003d-std\u003dc++14 -DC10_USE_GLOG -DC10_USE_MINIMAL_GLOG -DANDROID -Wno-c++11-narrowing -fexceptions",
+    "-DCMAKE_FIND_ROOT_PATH\u003d/home/tower/project/android_pro/models4/app/.cxx/cmake/debug/prefab/arm64-v8a/prefab",
+    "-DCMAKE_BUILD_TYPE\u003dDebug",
+    "-DCMAKE_TOOLCHAIN_FILE\u003d/home/tower/Android/Sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
+    "-DANDROID_ABI\u003darm64-v8a",
+    "-DANDROID_NDK\u003d/home/tower/Android/Sdk/ndk/21.1.6352462",
+    "-DANDROID_PLATFORM\u003dandroid-21",
+    "-DCMAKE_ANDROID_ARCH_ABI\u003darm64-v8a",
+    "-DCMAKE_ANDROID_NDK\u003d/home/tower/Android/Sdk/ndk/21.1.6352462",
+    "-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON",
+    "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/home/tower/project/android_pro/models4/app/build/intermediates/cmake/debug/obj/arm64-v8a",
+    "-DCMAKE_MAKE_PROGRAM\u003d/home/tower/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+    "-DCMAKE_SYSTEM_NAME\u003dAndroid",
+    "-DCMAKE_SYSTEM_VERSION\u003d21"
+  ]
+}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Check for working CXX compiler: /home/tower/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Check for working CXX compiler: /home/tower/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++
+CMAKE SERVER: Check for working CXX compiler: /home/tower/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":33,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Check for working CXX compiler: /home/tower/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ -- works","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Check for working CXX compiler: /home/tower/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ -- works
+CMAKE SERVER: Check for working CXX compiler: /home/tower/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ -- works
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting CXX compiler ABI info","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting CXX compiler ABI info
+CMAKE SERVER: Detecting CXX compiler ABI info
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":65,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting CXX compiler ABI info - done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting CXX compiler ABI info - done
+CMAKE SERVER: Detecting CXX compiler ABI info - done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting CXX compile features","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting CXX compile features
+CMAKE SERVER: Detecting CXX compile features
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":96,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":126,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":155,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":184,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting CXX compile features - done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting CXX compile features - done
+CMAKE SERVER: Detecting CXX compile features - done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":1000,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Configuring done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Configuring done
+CMAKE SERVER: Configuring done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"type":"compute"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","progressCurrent":1000,"progressMaximum":1000,"progressMessage":"Generating","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","message":"Generating done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Generating done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"type":"cmakeInputs"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"buildFiles":[{"isCMake":true,"isTemporary":false,"sources":["/home/tower/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake","/home/tower/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine.cmake","/home/tower/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystem.cmake.in","/home/tower/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake","/home/tower/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Initialize.cmake","/home/tower/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCXXCompiler.cmake","/home/tower/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake","/home/tower/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine-CXX.cmake","/home/tower/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android/Determine-Compiler.cmake","/home/tower/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake","/home/tower/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake","/home/tower/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompiler.cmake.in","/home/tower/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake","/home/tower/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeGenericSystem.cmake","/home/tower/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android.cmake","/home/tower/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Linux.cmake","/home/tower/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/UnixPaths.cmake","/home/tower/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXInformation.cmake","/home/tower/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake","/home/tower/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake","/home/tower/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake","/home/tower/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake","/home/tower/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU.cmake","/home/tower/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake","/home/tower/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-CXX.cmake","/home/tower/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake","/home/tower/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake","/home/tower/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCXXCompiler.cmake","/home/tower/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCompilerCommon.cmake","/home/tower/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompilerABI.cmake","/home/tower/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake","/home/tower/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp","/home/tower/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompileFeatures.cmake","/home/tower/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Internal/FeatureTesting.cmake","/home/tower/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake","/home/tower/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake","/home/tower/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake","/home/tower/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake","/home/tower/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake","/home/tower/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake","/home/tower/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake","/home/tower/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake","/home/tower/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompiler.cmake.in","/home/tower/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/ExternalProject.cmake","/home/tower/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/RepositoryInfo.txt.in","/home/tower/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/ExternalProject-download.cmake.in"]},{"isCMake":false,"isTemporary":false,"sources":["CMakeLists.txt","/home/tower/Android/Sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake","/home/tower/Android/Sdk/ndk/21.1.6352462/build/cmake/platforms.cmake","/home/tower/Android/Sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake"]},{"isCMake":false,"isTemporary":true,"sources":["../../../.cxx/cmake/debug/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake","../../../.cxx/cmake/debug/arm64-v8a/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake","../../../.cxx/cmake/debug/arm64-v8a/CMakeFiles/feature_tests.cxx","../../../.cxx/cmake/debug/arm64-v8a/CMakeFiles/feature_tests.cxx","../../../.cxx/cmake/debug/arm64-v8a/CMakeFiles/feature_tests.cxx","../../../.cxx/cmake/debug/arm64-v8a/CMakeFiles/feature_tests.cxx","../../../.cxx/cmake/debug/arm64-v8a/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake","../../../.cxx/cmake/debug/arm64-v8a/gflags-prefix/tmp/gflags-cfgcmd.txt.in"]}],"cmakeRootDirectory":"/home/tower/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10","cookie":"","inReplyTo":"cmakeInputs","sourceDirectory":"/home/tower/project/android_pro/models4/app/src/main/cpp","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"type":"codemodel"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"configurations":[{"name":"Debug","projects":[{"buildDirectory":"/home/tower/project/android_pro/models4/app/.cxx/cmake/debug/arm64-v8a","name":"asr_cc","sourceDirectory":"/home/tower/project/android_pro/models4/app/src/main/cpp","targets":[{"artifacts":["/home/tower/project/android_pro/models4/app/build/intermediates/cmake/debug/obj/arm64-v8a/libasr_cc.so"],"buildDirectory":"/home/tower/project/android_pro/models4/app/.cxx/cmake/debug/arm64-v8a","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++14 -DC10_USE_GLOG -DC10_USE_MINIMAL_GLOG -DANDROID -Wno-c++11-narrowing -fexceptions -O0 -fno-limit-debug-info  -fPIC   -std=gnu++14","defines":["asr_cc_EXPORTS"],"includePath":[{"path":"/home/tower/project/android_pro/models4/app/src/main/cpp"},{"path":"/home/tower/project/android_pro/models4/app/src/main/cpp/../../../build/pytorch_android-1.6.0.aar/headers"},{"path":"/home/tower/project/android_pro/models4/app/src/main/cpp/../../../build/pytorch_android-1.6.0.aar/headers/torch/csrc/api/include"},{"path":"/home/tower/project/android_pro/models4/app/.cxx/cmake/debug/arm64-v8a/gflags-build/include"}],"isGenerated":false,"language":"CXX","sources":["asr_cc.cc"]}],"fullName":"libasr_cc.so","linkFlags":"-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments","linkLibraries":"libfrontend.a libdecoder.a -landroid -llog /home/tower/project/android_pro/models4/app/build/pytorch_android-1.6.0.aar/jni/arm64-v8a/libpytorch_jni.so /home/tower/project/android_pro/models4/app/build/pytorch_android-1.6.0.aar/jni/arm64-v8a/libfbjni.so -latomic -lm","linkerLanguage":"CXX","name":"asr_cc","sourceDirectory":"/home/tower/project/android_pro/models4/app/src/main/cpp","sysroot":"/home/tower/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot","type":"SHARED_LIBRARY"},{"artifacts":["/home/tower/project/android_pro/models4/app/.cxx/cmake/debug/arm64-v8a/libdecoder.a"],"buildDirectory":"/home/tower/project/android_pro/models4/app/.cxx/cmake/debug/arm64-v8a","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++14 -DC10_USE_GLOG -DC10_USE_MINIMAL_GLOG -DANDROID -Wno-c++11-narrowing -fexceptions -O0 -fno-limit-debug-info  -fPIC   -std=gnu++14","includePath":[{"path":"/home/tower/project/android_pro/models4/app/src/main/cpp"},{"path":"/home/tower/project/android_pro/models4/app/src/main/cpp/../../../build/pytorch_android-1.6.0.aar/headers"},{"path":"/home/tower/project/android_pro/models4/app/src/main/cpp/../../../build/pytorch_android-1.6.0.aar/headers/torch/csrc/api/include"},{"path":"/home/tower/project/android_pro/models4/app/.cxx/cmake/debug/arm64-v8a/gflags-build/include"}],"isGenerated":false,"language":"CXX","sources":["utils/utils.cc","decoder/ctc_prefix_beam_search.cc","decoder/torch_asr_decoder.cc","decoder/torch_asr_model.cc"]}],"fullName":"libdecoder.a","linkerLanguage":"CXX","name":"decoder","sourceDirectory":"/home/tower/project/android_pro/models4/app/src/main/cpp","sysroot":"/home/tower/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot","type":"STATIC_LIBRARY"},{"artifacts":["/home/tower/project/android_pro/models4/app/.cxx/cmake/debug/arm64-v8a/libfrontend.a"],"buildDirectory":"/home/tower/project/android_pro/models4/app/.cxx/cmake/debug/arm64-v8a","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++14 -DC10_USE_GLOG -DC10_USE_MINIMAL_GLOG -DANDROID -Wno-c++11-narrowing -fexceptions -O0 -fno-limit-debug-info  -fPIC   -std=gnu++14","includePath":[{"path":"/home/tower/project/android_pro/models4/app/src/main/cpp"},{"path":"/home/tower/project/android_pro/models4/app/src/main/cpp/../../../build/pytorch_android-1.6.0.aar/headers"},{"path":"/home/tower/project/android_pro/models4/app/src/main/cpp/../../../build/pytorch_android-1.6.0.aar/headers/torch/csrc/api/include"},{"path":"/home/tower/project/android_pro/models4/app/.cxx/cmake/debug/arm64-v8a/gflags-build/include"}],"isGenerated":false,"language":"CXX","sources":["frontend/feature_pipeline.cc","frontend/fft.cc"]}],"fullName":"libfrontend.a","linkerLanguage":"CXX","name":"frontend","sourceDirectory":"/home/tower/project/android_pro/models4/app/src/main/cpp","sysroot":"/home/tower/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot","type":"STATIC_LIBRARY"},{"artifacts":["/home/tower/project/android_pro/models4/app/.cxx/cmake/debug/arm64-v8a/decoder_main"],"buildDirectory":"/home/tower/project/android_pro/models4/app/.cxx/cmake/debug/arm64-v8a","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++14 -DC10_USE_GLOG -DC10_USE_MINIMAL_GLOG -DANDROID -Wno-c++11-narrowing -fexceptions -O0 -fno-limit-debug-info  -fPIE   -std=gnu++14","includePath":[{"path":"/home/tower/project/android_pro/models4/app/src/main/cpp"},{"path":"/home/tower/project/android_pro/models4/app/src/main/cpp/../../../build/pytorch_android-1.6.0.aar/headers"},{"path":"/home/tower/project/android_pro/models4/app/src/main/cpp/../../../build/pytorch_android-1.6.0.aar/headers/torch/csrc/api/include"},{"path":"/home/tower/project/android_pro/models4/app/.cxx/cmake/debug/arm64-v8a/gflags-build/include"}],"isGenerated":false,"language":"CXX","sources":["bin/decoder_main.cc"]}],"fullName":"decoder_main","linkFlags":"-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections","linkLanguageFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++14 -DC10_USE_GLOG -DC10_USE_MINIMAL_GLOG -DANDROID -Wno-c++11-narrowing -fexceptions -O0 -fno-limit-debug-info","linkLibraries":"libfrontend.a libdecoder.a -landroid -lgflags libutils.a -lc++_shared -llog /home/tower/project/android_pro/models4/app/build/pytorch_android-1.6.0.aar/jni/arm64-v8a/libpytorch_jni.so /home/tower/project/android_pro/models4/app/build/pytorch_android-1.6.0.aar/jni/arm64-v8a/libfbjni.so -latomic -lm","linkPath":"-L/home/tower/project/android_pro/models4/app/.cxx/cmake/debug/arm64-v8a/gflags-build/lib","linkerLanguage":"CXX","name":"decoder_main","sourceDirectory":"/home/tower/project/android_pro/models4/app/src/main/cpp","sysroot":"/home/tower/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot","type":"EXECUTABLE"},{"artifacts":["/home/tower/project/android_pro/models4/app/.cxx/cmake/debug/arm64-v8a/libutils.a"],"buildDirectory":"/home/tower/project/android_pro/models4/app/.cxx/cmake/debug/arm64-v8a","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++14 -DC10_USE_GLOG -DC10_USE_MINIMAL_GLOG -DANDROID -Wno-c++11-narrowing -fexceptions -O0 -fno-limit-debug-info  -fPIC   -std=gnu++14","includePath":[{"path":"/home/tower/project/android_pro/models4/app/src/main/cpp"},{"path":"/home/tower/project/android_pro/models4/app/src/main/cpp/../../../build/pytorch_android-1.6.0.aar/headers"},{"path":"/home/tower/project/android_pro/models4/app/src/main/cpp/../../../build/pytorch_android-1.6.0.aar/headers/torch/csrc/api/include"},{"path":"/home/tower/project/android_pro/models4/app/.cxx/cmake/debug/arm64-v8a/gflags-build/include"}],"isGenerated":false,"language":"CXX","sources":["utils/utils.cc"]}],"fullName":"libutils.a","linkerLanguage":"CXX","name":"utils","sourceDirectory":"/home/tower/project/android_pro/models4/app/src/main/cpp","sysroot":"/home/tower/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot","type":"STATIC_LIBRARY"},{"buildDirectory":"/home/tower/project/android_pro/models4/app/.cxx/cmake/debug/arm64-v8a","fileGroups":[{"isGenerated":true,"sources":["../../../.cxx/cmake/debug/arm64-v8a/CMakeFiles/gflags","../../../.cxx/cmake/debug/arm64-v8a/CMakeFiles/gflags.rule","../../../.cxx/cmake/debug/arm64-v8a/CMakeFiles/gflags-complete.rule","../../../.cxx/cmake/debug/arm64-v8a/gflags-prefix/src/gflags-stamp/gflags-install.rule","../../../.cxx/cmake/debug/arm64-v8a/gflags-prefix/src/gflags-stamp/gflags-mkdir.rule","../../../.cxx/cmake/debug/arm64-v8a/gflags-prefix/src/gflags-stamp/gflags-download.rule","../../../.cxx/cmake/debug/arm64-v8a/gflags-prefix/src/gflags-stamp/gflags-update.rule","../../../.cxx/cmake/debug/arm64-v8a/gflags-prefix/src/gflags-stamp/gflags-patch.rule","../../../.cxx/cmake/debug/arm64-v8a/gflags-prefix/src/gflags-stamp/gflags-configure.rule","../../../.cxx/cmake/debug/arm64-v8a/gflags-prefix/src/gflags-stamp/gflags-build.rule"]}],"fullName":"gflags","name":"gflags","sourceDirectory":"/home/tower/project/android_pro/models4/app/src/main/cpp","type":"UTILITY"}]}]}],"cookie":"","inReplyTo":"codemodel","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+

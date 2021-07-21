@@ -1,0 +1,197 @@
+{
+  "stringTable": {
+    "0": "/home/tower/project/android_pro/models4/app/.cxx/cmake/release/arm64-v8a",
+    "1": "--target=aarch64-none-linux-android21 --gcc-toolchain=/home/tower/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/tower/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot -I/home/tower/project/android_pro/models4/app/src/main/cpp -I/home/tower/project/android_pro/models4/app/src/main/cpp/../../../build/pytorch_android-1.6.0.aar/headers -I/home/tower/project/android_pro/models4/app/src/main/cpp/../../../build/pytorch_android-1.6.0.aar/headers/torch/csrc/api/include -Igflags-build/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -std=c++14 -DC10_USE_GLOG -DC10_USE_MINIMAL_GLOG -DANDROID -Wno-c++11-narrowing -fexceptions -O2 -DNDEBUG -fPIE -std=gnu++14",
+    "2": "--target=aarch64-none-linux-android21 --gcc-toolchain=/home/tower/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/tower/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dasr_cc_EXPORTS -I/home/tower/project/android_pro/models4/app/src/main/cpp -I/home/tower/project/android_pro/models4/app/src/main/cpp/../../../build/pytorch_android-1.6.0.aar/headers -I/home/tower/project/android_pro/models4/app/src/main/cpp/../../../build/pytorch_android-1.6.0.aar/headers/torch/csrc/api/include -Igflags-build/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -std=c++14 -DC10_USE_GLOG -DC10_USE_MINIMAL_GLOG -DANDROID -Wno-c++11-narrowing -fexceptions -O2 -DNDEBUG -fPIC -std=gnu++14",
+    "3": "--target=aarch64-none-linux-android21 --gcc-toolchain=/home/tower/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/tower/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot -I/home/tower/project/android_pro/models4/app/src/main/cpp -I/home/tower/project/android_pro/models4/app/src/main/cpp/../../../build/pytorch_android-1.6.0.aar/headers -I/home/tower/project/android_pro/models4/app/src/main/cpp/../../../build/pytorch_android-1.6.0.aar/headers/torch/csrc/api/include -Igflags-build/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -std=c++14 -DC10_USE_GLOG -DC10_USE_MINIMAL_GLOG -DANDROID -Wno-c++11-narrowing -fexceptions -O2 -DNDEBUG -fPIC -std=gnu++14",
+    "4": "null"
+  },
+  "buildFiles": [
+    "/home/tower/project/android_pro/models4/app/src/main/cpp/CMakeLists.txt",
+    "/home/tower/Android/Sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
+    "/home/tower/Android/Sdk/ndk/21.1.6352462/build/cmake/platforms.cmake"
+  ],
+  "cleanCommands": [
+    "/home/tower/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/tower/project/android_pro/models4/app/.cxx/cmake/release/arm64-v8a\" clean"
+  ],
+  "buildTargetsCommand": "/home/tower/Android/Sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/home/tower/project/android_pro/models4/app/.cxx/cmake/release/arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "asr_cc-Release-arm64-v8a": {
+      "buildCommand": "/home/tower/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/tower/project/android_pro/models4/app/.cxx/cmake/release/arm64-v8a\" asr_cc",
+      "buildType": "release",
+      "toolchain": "3130112116",
+      "abi": "arm64-v8a",
+      "artifactName": "asr_cc",
+      "files": [
+        {
+          "src": "/home/tower/project/android_pro/models4/app/src/main/cpp/asr_cc.cc",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/home/tower/project/android_pro/models4/app/build/intermediates/cmake/release/obj/arm64-v8a/libasr_cc.so",
+      "runtimeFiles": [
+        "/home/tower/project/android_pro/models4/app/build/pytorch_android-1.6.0.aar/jni/arm64-v8a/libpytorch_jni.so",
+        "/home/tower/project/android_pro/models4/app/build/pytorch_android-1.6.0.aar/jni/arm64-v8a/libfbjni.so"
+      ]
+    },
+    "decoder-Release-arm64-v8a": {
+      "buildCommand": "/home/tower/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/tower/project/android_pro/models4/app/.cxx/cmake/release/arm64-v8a\" decoder",
+      "buildType": "release",
+      "toolchain": "3130112116",
+      "abi": "arm64-v8a",
+      "artifactName": "decoder",
+      "files": [
+        {
+          "src": "/home/tower/project/android_pro/models4/app/src/main/cpp/utils/utils.cc",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/tower/project/android_pro/models4/app/src/main/cpp/decoder/ctc_prefix_beam_search.cc",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/tower/project/android_pro/models4/app/src/main/cpp/decoder/torch_asr_decoder.cc",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/tower/project/android_pro/models4/app/src/main/cpp/decoder/torch_asr_model.cc",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/home/tower/project/android_pro/models4/app/.cxx/cmake/release/arm64-v8a/libdecoder.a"
+    },
+    "gflags-Release-arm64-v8a": {
+      "buildCommand": "/home/tower/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/tower/project/android_pro/models4/app/.cxx/cmake/release/arm64-v8a\" gflags",
+      "buildType": "release",
+      "toolchain": "3130112116",
+      "abi": "arm64-v8a",
+      "artifactName": "gflags",
+      "files": [
+        {
+          "src": "/home/tower/project/android_pro/models4/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/gflags",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/tower/project/android_pro/models4/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/gflags.rule",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/tower/project/android_pro/models4/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/gflags-complete.rule",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/tower/project/android_pro/models4/app/.cxx/cmake/release/arm64-v8a/gflags-prefix/src/gflags-stamp/gflags-install.rule",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/tower/project/android_pro/models4/app/.cxx/cmake/release/arm64-v8a/gflags-prefix/src/gflags-stamp/gflags-mkdir.rule",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/tower/project/android_pro/models4/app/.cxx/cmake/release/arm64-v8a/gflags-prefix/src/gflags-stamp/gflags-download.rule",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/tower/project/android_pro/models4/app/.cxx/cmake/release/arm64-v8a/gflags-prefix/src/gflags-stamp/gflags-update.rule",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/tower/project/android_pro/models4/app/.cxx/cmake/release/arm64-v8a/gflags-prefix/src/gflags-stamp/gflags-patch.rule",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/tower/project/android_pro/models4/app/.cxx/cmake/release/arm64-v8a/gflags-prefix/src/gflags-stamp/gflags-configure.rule",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/tower/project/android_pro/models4/app/.cxx/cmake/release/arm64-v8a/gflags-prefix/src/gflags-stamp/gflags-build.rule",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": []
+    },
+    "utils-Release-arm64-v8a": {
+      "buildCommand": "/home/tower/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/tower/project/android_pro/models4/app/.cxx/cmake/release/arm64-v8a\" utils",
+      "buildType": "release",
+      "toolchain": "3130112116",
+      "abi": "arm64-v8a",
+      "artifactName": "utils",
+      "files": [
+        {
+          "src": "/home/tower/project/android_pro/models4/app/src/main/cpp/utils/utils.cc",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/home/tower/project/android_pro/models4/app/.cxx/cmake/release/arm64-v8a/libutils.a"
+    },
+    "frontend-Release-arm64-v8a": {
+      "buildCommand": "/home/tower/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/tower/project/android_pro/models4/app/.cxx/cmake/release/arm64-v8a\" frontend",
+      "buildType": "release",
+      "toolchain": "3130112116",
+      "abi": "arm64-v8a",
+      "artifactName": "frontend",
+      "files": [
+        {
+          "src": "/home/tower/project/android_pro/models4/app/src/main/cpp/frontend/feature_pipeline.cc",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/tower/project/android_pro/models4/app/src/main/cpp/frontend/fft.cc",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/home/tower/project/android_pro/models4/app/.cxx/cmake/release/arm64-v8a/libfrontend.a"
+    },
+    "decoder_main-Release-arm64-v8a": {
+      "buildCommand": "/home/tower/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/tower/project/android_pro/models4/app/.cxx/cmake/release/arm64-v8a\" decoder_main",
+      "buildType": "release",
+      "toolchain": "3130112116",
+      "abi": "arm64-v8a",
+      "artifactName": "decoder_main",
+      "files": [
+        {
+          "src": "/home/tower/project/android_pro/models4/app/src/main/cpp/bin/decoder_main.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/home/tower/project/android_pro/models4/app/.cxx/cmake/release/arm64-v8a/decoder_main",
+      "runtimeFiles": [
+        "/home/tower/project/android_pro/models4/app/build/pytorch_android-1.6.0.aar/jni/arm64-v8a/libpytorch_jni.so",
+        "/home/tower/project/android_pro/models4/app/build/pytorch_android-1.6.0.aar/jni/arm64-v8a/libfbjni.so"
+      ]
+    }
+  },
+  "toolchains": {
+    "3130112116": {
+      "cppCompilerExecutable": "/home/tower/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cc"
+  ]
+}

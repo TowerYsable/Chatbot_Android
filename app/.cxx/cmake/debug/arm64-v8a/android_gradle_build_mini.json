@@ -1,0 +1,60 @@
+{
+  "buildFiles": [
+    "/home/tower/project/android_pro/models4/app/src/main/cpp/CMakeLists.txt",
+    "/home/tower/Android/Sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
+    "/home/tower/Android/Sdk/ndk/21.1.6352462/build/cmake/platforms.cmake"
+  ],
+  "cleanCommands": [
+    "/home/tower/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/tower/project/android_pro/models4/app/.cxx/cmake/debug/arm64-v8a\" clean"
+  ],
+  "buildTargetsCommand": "/home/tower/Android/Sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/home/tower/project/android_pro/models4/app/.cxx/cmake/debug/arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "decoder-Debug-arm64-v8a": {
+      "artifactName": "decoder",
+      "buildCommand": "/home/tower/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/tower/project/android_pro/models4/app/.cxx/cmake/debug/arm64-v8a\" decoder",
+      "abi": "arm64-v8a",
+      "output": "/home/tower/project/android_pro/models4/app/.cxx/cmake/debug/arm64-v8a/libdecoder.a",
+      "runtimeFiles": []
+    },
+    "decoder_main-Debug-arm64-v8a": {
+      "artifactName": "decoder_main",
+      "buildCommand": "/home/tower/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/tower/project/android_pro/models4/app/.cxx/cmake/debug/arm64-v8a\" decoder_main",
+      "abi": "arm64-v8a",
+      "output": "/home/tower/project/android_pro/models4/app/.cxx/cmake/debug/arm64-v8a/decoder_main",
+      "runtimeFiles": [
+        "/home/tower/project/android_pro/models4/app/build/pytorch_android-1.6.0.aar/jni/arm64-v8a/libpytorch_jni.so",
+        "/home/tower/project/android_pro/models4/app/build/pytorch_android-1.6.0.aar/jni/arm64-v8a/libfbjni.so"
+      ]
+    },
+    "utils-Debug-arm64-v8a": {
+      "artifactName": "utils",
+      "buildCommand": "/home/tower/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/tower/project/android_pro/models4/app/.cxx/cmake/debug/arm64-v8a\" utils",
+      "abi": "arm64-v8a",
+      "output": "/home/tower/project/android_pro/models4/app/.cxx/cmake/debug/arm64-v8a/libutils.a",
+      "runtimeFiles": []
+    },
+    "gflags-Debug-arm64-v8a": {
+      "artifactName": "gflags",
+      "buildCommand": "/home/tower/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/tower/project/android_pro/models4/app/.cxx/cmake/debug/arm64-v8a\" gflags",
+      "abi": "arm64-v8a",
+      "runtimeFiles": []
+    },
+    "asr_cc-Debug-arm64-v8a": {
+      "artifactName": "asr_cc",
+      "buildCommand": "/home/tower/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/tower/project/android_pro/models4/app/.cxx/cmake/debug/arm64-v8a\" asr_cc",
+      "abi": "arm64-v8a",
+      "output": "/home/tower/project/android_pro/models4/app/build/intermediates/cmake/debug/obj/arm64-v8a/libasr_cc.so",
+      "runtimeFiles": [
+        "/home/tower/project/android_pro/models4/app/build/pytorch_android-1.6.0.aar/jni/arm64-v8a/libpytorch_jni.so",
+        "/home/tower/project/android_pro/models4/app/build/pytorch_android-1.6.0.aar/jni/arm64-v8a/libfbjni.so"
+      ]
+    },
+    "frontend-Debug-arm64-v8a": {
+      "artifactName": "frontend",
+      "buildCommand": "/home/tower/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/tower/project/android_pro/models4/app/.cxx/cmake/debug/arm64-v8a\" frontend",
+      "abi": "arm64-v8a",
+      "output": "/home/tower/project/android_pro/models4/app/.cxx/cmake/debug/arm64-v8a/libfrontend.a",
+      "runtimeFiles": []
+    }
+  }
+}
