@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: jackmego.com.jieba_android:jieba_android-release:0.1.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/521b6642ac586847ab10c4a358c2eea1/jetified-jieba_android-release-0.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/521b6642ac586847ab10c4a358c2eea1/jetified-jieba_android-release-0.1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/521b6642ac586847ab10c4a358c2eea1/jetified-jieba_android-release-0.1.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/jackmego.com.jieba_android/jieba_android-release/0.1.0/f1bb6b3a69c9700c7f384ffc8ebc2405ec015907/jieba_android-release-0.1.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/jackmego.com.jieba_android/jieba_android-release/0.1.0/94ac495097270c277f8c0e4aa7a323cf3205258c/jieba_android-release-0.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
